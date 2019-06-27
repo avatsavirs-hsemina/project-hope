@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05e75bd1-7adb-4832-920b-fcd4fedb6ffe" name="Default Changelist" comment="" />
+    <list default="true" id="05e75bd1-7adb-4832-920b-fcd4fedb6ffe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pmorph/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pmorph/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pmorph/DataDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pmorph/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pmorph/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pmorph/Rss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pmorph/Rss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pmorph/RssFeeds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pmorph/RssReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pmorph/RssReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pmorph/excel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pmorph/morph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pmorph/test.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +30,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pmorph/Rss.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="63" column="15" lean-forward="true" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
+            <state relative-caret-position="615">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1226#1234#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -30,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pmorph/RssReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+            <state relative-caret-position="699">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,24 +74,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/parse.java" />
         <option value="$PROJECT_DIR$/src/main/java/NewsItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pmorph/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/pmorph/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/pmorph/RssFeeds.java" />
         <option value="$PROJECT_DIR$/src/main/java/pmorph/morph.java" />
         <option value="$PROJECT_DIR$/src/main/java/pmorph/DataDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pmorph/test.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
-        <option value="$PROJECT_DIR$/src/main/java/pmorph/HomeController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pmorph/NewsItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/pmorph/excel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pmorph/RssReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pmorph/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pmorph/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pmorph/Rss.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pmorph/RssReader.java" />
       </list>
     </option>
   </component>
@@ -100,6 +116,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="projecttest" type="58d84e3e:PackageViewProjectNode" />
+              <item name="projecttest" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
           <expand>
@@ -111,17 +138,6 @@
               <item name="projecttest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="projecttest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="projecttest" type="58d84e3e:PackageViewProjectNode" />
-              <item name="projecttest" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -194,6 +210,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -291,8 +308,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-22" width="1370" height="790" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49773756" visible="true" weight="0.3128788" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49773756" visible="true" weight="0.3181818" />
       <window_info id="Structure" order="1" sideWeight="0.5022625" side_tool="true" weight="0.30757576" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -308,7 +326,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917318" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2846498" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28507462" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.31445605" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -354,33 +372,6 @@
     <entry file="file://$PROJECT_DIR$/target/classes/parse.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/NewsItem.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Parse.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pmorph/RssFeeds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding>
-            <element signature="e#163#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pmorph/morph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pmorph/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-start-column="2" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pmorph/DataDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-504">
@@ -388,32 +379,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pmorph/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pmorph/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -434,6 +403,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pmorph/morph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pmorph/RssFeeds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#163#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pmorph/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pmorph/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pmorph/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="3" selection-start-column="2" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pmorph/RssReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pmorph/NewsItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -444,22 +470,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pmorph/RssReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pmorph/Rss.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="63" column="15" lean-forward="true" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="15" />
+        <state relative-caret-position="615">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1226#1234#0" expanded="true" />
           </folding>
         </state>
       </provider>

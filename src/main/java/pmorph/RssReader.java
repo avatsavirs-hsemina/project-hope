@@ -2,15 +2,11 @@ package pmorph;
 
 import dev.morphia.query.internal.MorphiaCursor;
 
-import dev.morphia.Datastore;
 import dev.morphia.query.Query;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.Cell;
+
 import org.apache.poi.ss.usermodel.Row;
-import org.bson.types.ObjectId;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -25,9 +21,9 @@ public class RssReader {
     public void findAll() {
         Query<NewsItem> query = Rss.ds.createQuery(NewsItem.class);
         MorphiaCursor<NewsItem> result = query.find();
-        //List<NewsItem> items = query.disableValidation().asList();
+
         while (result.hasNext()) {
-//            System.out.println(result.next().getTitle());
+//          System.out.println(result.next().getTitle());
             items.add(result.next());
         }
     }
