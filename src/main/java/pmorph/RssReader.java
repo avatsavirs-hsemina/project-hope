@@ -37,7 +37,7 @@ public class RssReader {
             Row row = sheet.createRow(rownum++);
             row.createCell(0).setCellValue(item.getTitle());
             row.createCell(1).setCellValue(item.getDescription());
-            row.createCell(2).setCellValue(item.getLink());
+            //row.createCell(2).setCellValue(item.getLink());
             }
 
             FileOutputStream fileOut = new FileOutputStream("/home/animesh/RssFeed.xlsx");
